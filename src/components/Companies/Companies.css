@@ -1,0 +1,16 @@
+.c-container{
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.c-container>img{
+    width: 9rem;
+}
+
+@media (max-width: 768px) {
+    .c-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
